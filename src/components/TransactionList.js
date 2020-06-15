@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import {GlobalContext} from '../context/GlobalState';
-import {transaction, Transaction} from './Transaction';
+import {Transaction} from './Transaction';
 export const TransactionList = () => {
 
 const {transaction} = useContext(GlobalContext);
